@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SRELM</string>
+
+    <string name="empresa">ECOLIM S.A.C</string>
+    <string name="mensaje">Porque buscamos un mundo más verde</string>
+    <string name="mensaje1">Ayudanos a ayudarte</string>
+    <string name="version">Versión 10.0.5</string>
+
+    <string name="Bienvenido">Bienvenido de nuevo</string>
+    <string name="resi">Registrar residuo</string>
+    <string name="report">Reporte General</string>
+    <string name="id">Identificación</string>
+    <string name="salir">Cerrar sesión</string>
+    <string name="ayuda">Soporte</string>
+    <string name="Normas">Normativa</string>
+    <string name="filtro">Filtro</string>
+    <string name="lista">Top</string>
+
+    <string name="textaso">La gestión adecuada de los residuos sólidos es fundamental para mantener nuestras ciudades limpias y saludables. En el Perú, la Ley de Gestión Integral de Residuos Sólidos (Decreto Legislativo N.º 1278) establece las normas que todos debemos seguir para asegurar una correcta recolección y manejo de la basura
+
+¿Qué debemos hacer como ciudadanos?
+
+Separar la basura en casa: Es importante clasificar nuestros residuos en orgánicos (restos de comida) e inorgánicos (plásticos, vidrios, papeles). Esto facilita el reciclaje y reduce la cantidad de basura que llega a los rellenos sanitarios.
+
+Utilizar los contenedores adecuados: Debemos depositar la basura en los recipientes designados por el municipio. Cada tipo de residuo tiene su contenedor específico, lo que ayuda a una gestión más eficiente.
+
+Respetar los horarios de recolección: Sacar la basura en los horarios establecidos evita la acumulación en las calles y la proliferación de plagas.
+
+No arrojar residuos en espacios públicos: Mantener parques, plazas y calles libres de basura es responsabilidad de todos. Además de ser una obligación legal, contribuye a una mejor calidad de vida.
+
+¿Qué hacen las autoridades?
+
+El Ministerio del Ambiente (MINAM) es el encargado de formular políticas y supervisar la gestión de residuos en el país.
+        Trabaja en conjunto con los municipios para asegurar que la recolección y disposición final de la basura se realice de manera adecuada.
+Beneficios de cumplir con estas normativas
+
+Salud pública: Una correcta gestión de residuos reduce focos de infección y enfermedades.
+
+Medio ambiente: Disminuye la contaminación del suelo, agua y aire.
+
+Economía: El reciclaje y la reutilización de materiales generan empleo y ahorran recursos.
+
+Cumplir con las normativas de recolección de residuos sólidos es una tarea sencilla que depende de cada uno de nosotros. Al hacerlo, contribuimos a un Perú más limpio y sostenible.</string>
+    <string name="back">Regresal al menú</string>
+</resources>

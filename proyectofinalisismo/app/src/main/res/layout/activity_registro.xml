@@ -1,0 +1,238 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:gravity="top">
+
+        <!-- Contenedor del título y la imagen -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/bebita"
+                android:text="Crea tu cuenta"
+                android:textColor="@color/voscuro"
+                android:textSize="41sp"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:contentDescription="User Icon"
+                android:src="@drawable/ecolim"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="35dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="#88FFFFFF"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="24dp">
+
+                <EditText
+                    android:id="@+id/etNombres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nombres"
+                    android:textColorHint="@color/ANTI"
+                    android:background="@drawable/esapcioderesitro"
+                    android:padding="12dp"
+                    android:fontFamily="@font/zeloso"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="12dp"
+                    android:drawableStart="@drawable/usuario"
+                    android:drawablePadding="12dp"/>
+
+                <EditText
+                    android:id="@+id/etApellidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Apellidos"
+                    android:textColorHint="@color/ANTI"
+                    android:background="@drawable/esapcioderesitro"
+                    android:padding="12dp"
+                    android:fontFamily="@font/zeloso"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="12dp"
+                    android:drawableStart="@drawable/usuario"
+                    android:drawablePadding="12dp"/>
+
+                <EditText
+                    android:id="@+id/etCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Correo electronico"
+                    android:textColorHint="@color/ANTI"
+                    android:background="@drawable/esapcioderesitro"
+                    android:padding="12dp"
+                    android:fontFamily="@font/zeloso"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="12dp"
+                    android:drawableStart="@drawable/email"
+                    android:drawablePadding="12dp"/>
+
+                <EditText
+                    android:id="@+id/etTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Número telefónico"
+                    android:textColorHint="@color/ANTI"
+                    android:background="@drawable/esapcioderesitro"
+                    android:padding="12dp"
+                    android:fontFamily="@font/zeloso"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/fono"
+                    android:drawablePadding="12dp"/>
+
+                <EditText
+                    android:id="@+id/etZonal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Distrito donde opera"
+                    android:background="@drawable/esapcioderesitro"
+                    android:textColorHint="@color/ANTI"
+                    android:padding="12dp"
+                    android:fontFamily="@font/zeloso"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/ubi"
+                    android:drawablePadding="12dp"/>
+                <EditText
+                    android:id="@+id/etDNI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="DNI"
+                    android:background="@drawable/esapcioderesitro"
+                    android:textColorHint="@color/ANTI"
+                    android:padding="12dp"
+                    android:fontFamily="@font/zeloso"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/dni"
+                    android:drawablePadding="12dp"/>
+                <EditText
+                    android:id="@+id/etCodigoTrabajador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Codigo de trabajador"
+                    android:background="@drawable/esapcioderesitro"
+                    android:textColorHint="@color/ANTI"
+                    android:padding="12dp"
+                    android:fontFamily="@font/zeloso"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="2dp"
+                    android:drawableStart="@drawable/di"
+                    android:drawablePadding="12dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/black"
+                    app:boxBackgroundMode="none"
+                    android:layout_marginBottom="8dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/contrase"
+                        android:drawablePadding="12dp"
+                        android:paddingStart="16dp"
+                        android:fontFamily="@font/zeloso"
+                        android:paddingEnd="48dp"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/esapcioderesitro"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirmar contraseña"
+                    app:endIconMode="password_toggle"
+                    app:endIconTint="@color/black"
+                    app:boxBackgroundMode="none"
+                    android:layout_marginBottom="8dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etConfirmPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawableStart="@drawable/contrase"
+                        android:drawablePadding="12dp"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="48dp"
+                        android:fontFamily="@font/zeloso"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/esapcioderesitro"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Botones -->
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:fontFamily="@font/bebita"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="12dp"
+            android:backgroundTint="#076604"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:minWidth="200dp"
+            android:drawableRight="@drawable/register"/>
+
+        <TextView
+            android:id="@+id/txtVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar al inicio"
+            android:fontFamily="@font/zeloso"
+            android:textColor="@color/ANTI"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/redodndo"
+    android:elevation="10dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/bebita"
+        android:text="Top 10 Residuos"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/voscuro" />
+
+    <ListView
+        android:id="@+id/topListView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cerrar"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bebita"
+        android:backgroundTint="@color/voscuro"
+        android:textColor="@android:color/white" />
+</LinearLayout>

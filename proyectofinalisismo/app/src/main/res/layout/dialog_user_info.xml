@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background">
+
+    <!-- Imagen del usuario -->
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/garicploxsinfondo"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Contenedor de la información -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start">
+
+        <!-- Nombre -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="Nombre:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Apellidos -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="Apellidos:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvApellidos"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/zeloso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Correo -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="Correo:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvCorreo"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="Teléfono:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvTelefono"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="Zonal:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvDistrito"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="DNI:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvDni"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="CD trabajador:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvCodigoTrabajador"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="Creaste tu cuenta el:"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvFechaCreacion"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:text="Ultima sesión el:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/zeloso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvUltimaConexion"
+                android:textSize="16sp"
+                android:fontFamily="@font/zeloso"
+                android:textColor="@color/black"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/img_cerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar"
+            android:fontFamily="@font/bebita"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#456DA1"
+            android:textColor="@android:color/white"
+            android:drawableRight="@drawable/back"/>
+    </LinearLayout>
+</LinearLayout>
+
+

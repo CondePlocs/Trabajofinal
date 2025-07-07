@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:background="@drawable/backdenormas"
+    android:gravity="center"
+    android:elevation="8dp">
+
+    <!-- Imagen superior -->
+    <ImageView
+        android:id="@+id/dialogImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ecolim"
+        android:contentDescription="Imagen descriptiva"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normativa para el bienestar de nuestro trabajo"
+        android:fontFamily="@font/bebita"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/verde"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- ScrollView para el texto extenso -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:id="@+id/dialogText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textaso"
+            android:fontFamily="@font/zeloso"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:padding="8dp"
+            android:gravity="start" />
+    </ScrollView>
+
+    <!-- Botón de cierre -->
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar"
+        android:fontFamily="@font/bebita"
+        android:backgroundTint="@color/verde"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:drawableRight="@drawable/back"/>
+</LinearLayout>
+
